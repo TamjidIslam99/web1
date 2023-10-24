@@ -41,7 +41,7 @@ export const CourseLearnWrapper = () => {
   }
   return (
     <div className='TodoWrapper'>
-      <h1>Course Learning objective</h1>
+      <h1>Course Learning Outcome</h1>
       <CourseLearnForm addTodo={addTodo}/>
       {todos.map((todo, index)=>(
         todo.isEditing ? (
