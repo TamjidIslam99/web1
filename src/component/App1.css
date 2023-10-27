@@ -9,6 +9,17 @@ input{
     border: 2px solid transparent;
     border-radius: 10px;
   }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  
+  th {
+    text-align: center;
+    vertical-align: middle; /* This property aligns the text vertically in the middle */
+/* This is to illustrate the effect, you can adjust the height as needed */
+  }
   input:focus{
     text-decoration: none;
   }
