@@ -6,6 +6,7 @@ import CourseLearnWrapper from './component/CourseLearnWrapper';
 import CourseInfo from './component/CourseInfo';
 import CouseInfoT from './component/CouseInfoT';
 import CourseAsses from './component/CourseAsses';
+import Bookreference from './component/Bookreference';
 export function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ export function App() {
       <Route exact path='/Cinfo' element={<CourseInfo/>}/>
       <Route exact path='/Cinfo23' element={<CouseInfoT/>}/>
       <Route exact path='/Cinfo33' element={<CourseAsses/>}/>
+      <Route exact path="/Cinfo34" element={<Bookreference/> }/>
      
     </Routes>
      

@@ -26,6 +26,9 @@ const Navbar = () => {
         <li class="nav-item">
           <Link class="nav-link" to="Cinfo33">Course Assesment</Link>
         </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="Cinfo34">Book Reference</Link>
+        </li>
       </ul>
     </div>
   </div>
