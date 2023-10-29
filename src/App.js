@@ -7,6 +7,8 @@ import CourseInfo from './component/CourseInfo';
 import CouseInfoT from './component/CouseInfoT';
 import CourseAsses from './component/CourseAsses';
 import Bookreference from './component/Bookreference';
+import Coursecontoutline from './component/Coursecontoutline';
+import Guidedlearning from './component/Guidedlearning';
 export function App() {
   return (
     <div className="App">
@@ -22,7 +24,8 @@ export function App() {
       <Route exact path='/Cinfo23' element={<CouseInfoT/>}/>
       <Route exact path='/Cinfo33' element={<CourseAsses/>}/>
       <Route exact path="/Cinfo34" element={<Bookreference/> }/>
-     
+      <Route exact path="/Cinfo54" element={<Coursecontoutline/> }/>
+      <Route exact path="/Cinfo44" element={<Guidedlearning/> }/>
     </Routes>
      
    

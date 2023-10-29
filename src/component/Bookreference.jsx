@@ -18,7 +18,7 @@ const Bookreference = () => {
     let {aa, bb,cc,dd,ee} = inputdata;
     function changhandle() {
 
-        if(aa==="" && bb===""&&cc==="",dd===""&&ee===""){
+        if(aa==="" && bb===""&&cc===""&&dd===""&&ee===""){
             alert("Enter INPUT fields")
           }else{
         setInputarr([
