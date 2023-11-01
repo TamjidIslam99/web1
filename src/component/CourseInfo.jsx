@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React  from 'react'
 import './App1.css';
+import { useState } from 'react'
 const CourseInfo = () => {
     const [inputarr,
         setInputarr] = useState([])

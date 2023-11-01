@@ -9,24 +9,14 @@ import CourseAsses from './component/CourseAsses';
 import Bookreference from './component/Bookreference';
 import Coursecontoutline from './component/Coursecontoutline';
 import Guidedlearning from './component/Guidedlearning';
+import Curriculum from './component/Curriculum';
 export function App() {
   return (
     <div className="App">
     
   
   
-    <Navbar/>
-
-    <Routes>
-      <Route exact path='/' element={<Todowrapper/>}/>
-      <Route exact path='/CLO' element={<CourseLearnWrapper/>}/>
-      <Route exact path='/Cinfo' element={<CourseInfo/>}/>
-      <Route exact path='/Cinfo23' element={<CouseInfoT/>}/>
-      <Route exact path='/Cinfo33' element={<CourseAsses/>}/>
-      <Route exact path="/Cinfo34" element={<Bookreference/> }/>
-      <Route exact path="/Cinfo54" element={<Coursecontoutline/> }/>
-      <Route exact path="/Cinfo44" element={<Guidedlearning/> }/>
-    </Routes>
+   <Curriculum/>
      
    
 
